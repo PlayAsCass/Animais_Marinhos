@@ -1,0 +1,64 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=VT323&display=swap');
+
+body {
+    background-color: #1c2842;
+    height: 100vh;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+hr {
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    max-width: 400px;
+    max-height: 5000px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.info span {
+    font-style: italic;
+}
+
+.info .sobre {
+
+}
+
+.container .card .perfil img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
