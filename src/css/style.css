@@ -1,7 +1,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=VT323&display=swap');
 
   body {
-    background-color: #1c2842;
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     font-family: 'Roboto Mono', sans-serif;
     font-size: 18px;
@@ -13,6 +16,11 @@
     justify-content: center;
     height: 100%;
   }
+
+    .cards {
+      display: flex;
+      flex-direction: row;
+    }
 
   .card {
     display: flex;
@@ -29,9 +37,9 @@
     max-height: 5000px;
     min-width: 100px;
     min-height: 100px;
-}
+  }
 
-.container .card img {
-  /* flex-direction: column; */
-  width: 150px;
-}
+  .container .card img {
+    /* flex-direction: column; */
+    width: 150px;
+  }
