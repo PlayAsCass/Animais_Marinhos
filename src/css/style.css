@@ -17,10 +17,10 @@
     height: 100%;
   }
 
-    .cards {
-      display: flex;
-      flex-direction: row;
-    }
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
 
   .card {
     display: flex;
@@ -42,4 +42,12 @@
   .container .card img {
     /* flex-direction: column; */
     width: 150px;
+  }
+
+
+  @media (max-width: 576px) {
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
   }
