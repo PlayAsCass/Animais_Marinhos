@@ -68,7 +68,9 @@
       font-style: italic;
   }
 
-  .info .sobre {}
+  .info .sobre {
+    text-align: justify;
+  }
 
   .container .card .perfil img {
       max-width: 200px;
